@@ -1,0 +1,35 @@
+:root{
+    --teal: #5c9090;
+    --black: #000;
+    --white: #fff;
+    --yale: #0f4c81;
+    --opal: #bfd0ca;
+    --sun: #e9b666;
+    --silk: #edcabe;
+    --melon: #f5b19c;
+    --silver: #a5b2b5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--teal);
+}
+
+    .hi {
+        text-align: center;
+        align-items: center;
+        color: var(--sun);
+        border-radius: 5px;
+        background: var(--yale);
+        height: fit-content;
+        width: fit-content;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .hi h1{
+        background: var(--yale);
+    }
